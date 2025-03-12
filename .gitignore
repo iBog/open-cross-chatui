@@ -4,10 +4,21 @@
 *.log
 *.pyc
 *.swp
+.DS_Store
+.atom/
+.build/
 .buildlog/
 .history
+.svn/
+.swiftpm/
+.pub-cache/
+migrate_working_dir/
 
-
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
 
 # Flutter repo-specific
 /bin/cache/
@@ -41,6 +52,7 @@ analysis_benchmark.json
 .pub-preload-cache/
 .pub/
 build/
+**/build/
 flutter_*.png
 linked_*.ds
 unlinked.ds
@@ -56,6 +68,12 @@ unlinked_spec.ds
 **/android/**/GeneratedPluginRegistrant.java
 **/android/key.properties
 *.jks
+keystore.properties
+local.properties
+/android/app/.cxx/
+/android/app/debug
+/android/app/profile
+/android/app/release
 
 # iOS/XCode related
 **/ios/**/*.mode1v3
